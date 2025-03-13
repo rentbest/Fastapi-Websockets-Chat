@@ -1,6 +1,6 @@
 from fastapi import APIRouter, WebSocket, WebSocketDisconnect
 
-from manager.connection_manager import manager
+from app.manager.connection_manager import manager
 
 
 router = APIRouter(prefix="/ws/chat")
